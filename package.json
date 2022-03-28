@@ -1,8 +1,11 @@
 {
-  "name": "volto-text-with-background-color-block",
+  "name": "@kitconcept/volto-text-with-background-color-block",
   "version": "0.1.0",
   "description": "volto-text-with-background-color-block: Volto add-on",
   "main": "src/index.js",
+  "addons": [
+    "volto-slate:minimalDefault,simpleLink"
+  ],
   "license": "MIT",
   "keywords": [
     "volto-addon",
@@ -14,6 +17,8 @@
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
   },
   "dependencies": {
-    "@plone/scripts": "*"
+    "@plone/scripts": "*",
+    "react-color": "2.19.3",
+    "volto-slate": "5.3.5"
   }
 }
