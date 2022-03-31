@@ -1,4 +1,4 @@
-# Volto Text With Background Color Block <img src="https://raw.githubusercontent.com/plone/pastanaga-icons/master/Icons/divide-horizontal.svg">
+# Volto Text With Background Color Block
 
 [![NPM](https://img.shields.io/npm/v/@kitconcept/volto-text-with-background-color-block.svg)](https://www.npmjs.com/package/@kitconcept/volto-text-with-background-color-block)
 [![Build Status](https://github.com/kitconcept/volto-text-with-background-color-block/actions/workflows/code.yml/badge.svg)](https://github.com/kitconcept/volto-text-with-background-color-block/actions)
