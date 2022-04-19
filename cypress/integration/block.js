@@ -19,4 +19,4 @@ context('Block Acceptance Tests', () => {
     cy.get('.blocks-chooser .mostUsed .button.textWithBackgroundColor').click();
     cy.get('#toolbar-save').click();
   });
-}
+});
