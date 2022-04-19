@@ -15,8 +15,7 @@ context('Block Acceptance Tests', () => {
     cy.visit('/document/edit');
     cy.get('.block.inner.text .public-DraftEditor-content').click();
     cy.get('.button .block-add-button').click({ force: true });
-    cy.findByText('Text').click();
-    cy.get('.blocks-chooser .mostUsed .button.textWithBackgroundColor').click();
+    cy.get('.blocks-chooser .mostUsed .button.textWithBackgroundColor').click({ force: true });
     cy.get('#toolbar-save').click();
   });
 });
